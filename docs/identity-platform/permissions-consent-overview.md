@@ -79,7 +79,7 @@ Depending on the permissions they require, some applications might require an ad
 
 Administrators can grant consent for themselves or for the entire organization. For more information about user and admin consent, see [user and admin consent overview](~/identity/enterprise-apps/user-admin-consent-overview.md).
 
-Authentication requests are prompted for admin consent if consent wasn't granted and if one of those high-privilege permissions is requested.
+Authentication requests are prompted for admin consent if consent wasn't granted and if one of those high-privilege permissions is requested. Custom application scopes are not considered high-privilege for Administrator consent request purposes.
 
 ### Preauthorization
 
